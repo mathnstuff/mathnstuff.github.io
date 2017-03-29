@@ -25,7 +25,6 @@ window.onload = function set(){
     
     var button = document.getElementById('change');
     button.addEventListener('click', function(){
-        window.open("radians.html");
-        window.close("index.html");
+        location.assign("radians.html");
     });
 };
